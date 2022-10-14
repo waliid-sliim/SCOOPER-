@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+     <!-- font awesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+     <!-- swiper css link  -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+     <!-- header section  -->
+    <header class="header">
+
+        <a href="home.html" class="logo"> <i class="fa fa-laptop" aria-hidden="true"></i> scooper </a>
+    
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="scoop here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    
+        <div class="icons">
+            
+            <div id="search-btn" class="fas fa-search"></div>
+           
+        </div>
+    
+    </header> 
+     
+   
+
+        <h1 class="heading">your <span>products</span></h1>
+    
+        
+    
+        <section class="arrivals">
+
+        
+            <div class="box-container">
+        
+                <div id="cart" class="box dell laptop">
+                    <div class="image">
+                        <img src="https://media0.giphy.com/media/POo06zCZzZRGV2R3oa/giphy.gif?cid=6c09b952efliv5bqwaojxwhibs9avjioqkhu5czr7kyd2c7m&rid=giphy.gif&ct=s"  alt="">
+                        
+                    </div>
+                    <div class="content">
+                        <h3>  Number Of products :  </h3> <h3 id="prixx">0</h3>
+                          <button id="1997"> <i class="fas fa-cart-arrow-down"></i></i> </button>
+                        
+                        <div class="price"> total : <p id="totalee">0 </p>  </div>
+                            
+     <!-- to buy section  -->
+                            
+                        </div>
+                    </div >
+                    <div id="clean">
+                    <div id="100" class="box dell laptop">
+                        
+                        <div class="image">
+                            <img src="images/arrival-1-hover.png" class="main-img" alt="">
+                            <img src="images/arrival-1.png" class="hover-img" alt="">
+                            
+                        </div>
+                        
+                        <div class="content">
+                            <div><button onclick="remove()"> <i class="fas fa-times"></i></button></div>
+                            <h3>DELL gaming g15</h3>
+                            <div class="price"> 2300 DT </div> 
+                            <div >
+                               <b> 
+                                Ecran 15.6" FHD 120Hz - Processeur Intel Core I5-10500H, Up To 4.5 Ghz, 12 Mo De Mémoire Cache -
+                                Mémoire 16 Go - Disque 256 Go SSD - Carte Graphique Nvidia GeForce GTX 1650, 4 Go De Mémoire Dédiée -
+                                Clavier Rétroéclairé - Wifi 6 - Bluetooth - RJ45 - 3x USB 3.2 -
+                                1x USB-C 3.2 - HDMI - Port Casque/Micro - Webcam HD - Couleur Noir - Garantie 1 An</b>
+                                
+                            </div>
+                            
+                        </div>
+                       
+                    </div>
+                    <div  id="200"class="box lenovo laptop" >
+                        <div class="image" >
+                            <img src="images/arrival-2.png" class="main-img" alt="">
+                            <img src="images/arrival-2-hover.png" class="hover-img" alt="">
+                        </div>
+                        <div class="content">
+                            <div><button onclick="remove1()"> <i class="fas fa-times"></i></button></div>
+                            <h3>lenovo legion 3</h3>
+                            <div class="price"> 1300 DT  </div>
+                            <div >
+                                
+                                <b> 
+                                    Ecran 15.6" FHD 120Hz - Processeur Intel Core I5-10500H, Up To 4.5 Ghz, 12 Mo De Mémoire Cache -
+                                    Mémoire 16 Go - Disque 256 Go SSD - Carte Graphique Nvidia GeForce GTX 1650, 4 Go De Mémoire Dédiée -
+                                    Clavier Rétroéclairé - Wifi 6 - Bluetooth - RJ45 - 3x USB 3.2 -
+                                    1x USB-C 3.2 - HDMI - Port Casque/Micro - Webcam HD - Couleur Noir - Garantie 1 An</b>
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="300" class="box hp laptop ">
+                        <div class="image">
+                            <img src="images/arrival-3.png" class="main-img" alt="">
+                            <img src="images/arrival-3-hover.png" class="hover-img" alt="">
+                        </div>
+                        <div class="content">
+                            <div><button onclick="remove2()"> <i class="fas fa-times"></i></button></div>
+                            <h3>hp  gaming </h3>
+                            <div class="price"> 1899 DT </div>
+                            <div >
+                                <b> 
+                                    Ecran 15.6" FHD 120Hz - Processeur Intel Core I5-10500H, Up To 4.5 Ghz, 12 Mo De Mémoire Cache -
+                                    Mémoire 16 Go - Disque 2334 Go SSD - Carte Graphique Nvidia GeForce GTX 1650, 4 Go De Mémoire Dédiée -
+                                    Clavier Rétroéclairé - Wifi 6 - Bluetooth - RJ45 - 3x USB 3.2 -
+                                    1x USB-C 3.2 - HDMI - Port Casque/Micro - Webcam HD - Couleur Noir - Garantie 1 An
+                                </b>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div id="400" class="box asus laptp">
+                        <div class="image">
+                            <img src="images/hover  4.png" class="main-img" alt="">
+                            <img src="images/4.png" class="hover-img" alt="">
+                            
+                        </div>
+                        <div class="content">
+                            <div><button onclick="remove3()"> <i class="fas fa-times"></i></button></div>
+                            <h3>Asus A15 TUF507</h3>
+                            <div class="price"> 2489 DT </div>
+                            <div>
+                                <b> 
+                                    Ecran 15.6" FHD 120Hz - Processeur Intel Core I5-10500H, Up To 4.5 Ghz, 12 Mo De Mémoire Cache -
+                                    Mémoire 16 Go - Disque 256 Go SSD - Carte Graphique Nvidia GeForce GTX 1650, 4 Go De Mémoire Dédiée -
+                                    Clavier Rétroéclairé - Wifi 6 - Bluetooth - RJ45 - 3x USB 3.2 -
+                                    1x USB-C 3.2 - HDMI - Port Casque/Micro - Webcam HD - Couleur Noir - Garantie 1 An</b>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="500" class="box asus laptop">
+                        <div class="image">
+                            <img src="images/arrival 5.png" class="main-img" alt="">
+                            <img src="images/5 hover.png" class="hover-img" alt="">
+                        </div>
+                        <div class="content">
+                            <div><button onclick="remove4()"> <i class="fas fa-times"></i></button></div>
+                            <h3>ASUS TUF FX516s</h3>
+                            <div class="price"> 2130 DT </div>
+                            <div >
+                                <b> 
+                                    Ecran 15.6" FHD 120Hz - Processeur Intel Core I5-10500H, Up To 4.5 Ghz, 12 Mo De Mémoire Cache -
+                                    Mémoire 16 Go - Disque 256 Go SSD - Carte Graphique Nvidia GeForce GTX 1650, 4 Go De Mémoire Dédiée -
+                                    Clavier Rétroéclairé - Wifi 6 - Bluetooth - RJ45 - 3x USB 3.2 -
+                                    1x USB-C 3.2 - HDMI - Port Casque/Micro - Webcam HD - Couleur Noir - Garantie 1 An</b>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="600" class="box hp laptop ">
+                        <div class="image">
+                            <img src="images/arrival 6.png" class="main-img" alt="">
+                            <img src="images/arrival6 hover.png" class="hover-img" alt="">
+                        </div>
+                        <div class="content">
+                            <div><button onclick="remove5()"> <i class="fas fa-times"></i></button></div>
+                            <h3>HP lap VICTUS  15</h3>
+                            <div class="price"> 1999 DT  </div>
+                            <div >
+                                <b> 
+                                    Ecran 15.6" FHD 120Hz - Processeur Intel Core I5-10500H, Up To 4.5 Ghz, 12 Mo De Mémoire Cache -
+                                    Mémoire 16 Go - Disque 256 Go SSD - Carte Graphique Nvidia GeForce GTX 1650, 4 Go De Mémoire Dédiée -
+                                    Clavier Rétroéclairé - Wifi 6 - Bluetooth - RJ45 - 3x USB 3.2 -
+                                    1x USB-C 3.2 - HDMI - Port Casque/Micro - Webcam HD - Couleur Noir - Garantie 1 An</b>
+                                
+                            </div>
+                        </div>
+                    </div>
+                        <div id="700" class="box lenovo laptop">
+                            <div class="image">
+                                <img src="images/arrival 7 hover.png" class="main-img" alt="">
+                                <img src="images/arrival 7.png" class="hover-img" alt="">
+                                
+                            </div>
+                            <div class="content">
+                                <div><button onclick="remove6()"> <i class="fas fa-times"></i></button></div>
+                                <h3>LENOVO THINKPAD E14</h3>
+                                <div class="price"> 1432 DT </div>
+                                <div >
+                                    <b> 
+                                        Ecran 15.6" FHD 120Hz - Processeur Intel Core I5-10500H, Up To 4.5 Ghz, 12 Mo De Mémoire Cache -
+                                        Mémoire 16 Go - Disque 256 Go SSD - Carte Graphique Nvidia GeForce GTX 1650, 4 Go De Mémoire Dédiée -
+                                        Clavier Rétroéclairé - Wifi 6 - Bluetooth - RJ45 - 3x USB 3.2 -
+                                        1x USB-C 3.2 - HDMI - Port Casque/Micro - Webcam HD - Couleur Noir - Garantie 1 An</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="800" class="box lenovo_laptop">
+                            <div class="image">
+                                <img src="images/unknown.png" class="main-img" alt="">
+                                <img src="images/unknown (1).png" class="hover-img" alt="">
+                                
+                            </div>
+                            <div class="content">
+                                <div><button onclick="remove7()"> <i class="fas fa-times"></i></button></div>
+                                <h3>Dell  M15</h3>
+                                <div class="price"> 1432 DT </div>
+                                <div >
+                                    <b> 
+                                        Ecran 15.6" FHD 120Hz - Processeur Intel Core I5-10500H, Up To 4.5 Ghz, 12 Mo De Mémoire Cache -
+                                        Mémoire 16 Go - Disque 256 Go SSD - Carte Graphique Nvidia GeForce GTX 1650, 4 Go De Mémoire Dédiée -
+                                        Clavier Rétroéclairé - Wifi 6 - Bluetooth - RJ45 - 3x USB 3.2 -
+                                        1x USB-C 3.2 - HDMI - Port Casque/Micro - Webcam HD - Couleur Noir - Garantie 1 An</b>
+                             
+                                </div>
+                            </div>
+                        </div>
+                        <div  id="900" class="box 3EFRIT pc">
+                            <div class="image">
+                                <img src="images/pc 1.png" class="main-img" alt="">
+                                <img src="images/pc 1  hover.png" class="hover-img" alt="">
+                            </div>
+                            <div class="content">
+                                <div><button onclick="remove8()"> <i class="fas fa-times"></i></button></div>
+                                <h3>alnort AK47 18K</h3>
+                                <div class="price"> 9120 DT </div>
+                                <div >
+                                    <b> 
+                                        Ecran 15.6" FHD 120Hz - Processeur Intel Core I5-10500H, Up To 4.5 Ghz, 12 Mo De Mémoire Cache -
+                                        Mémoire 16 Go - Disque 256 Go SSD - Carte Graphique Nvidia GeForce GTX 1650, 4 Go De Mémoire Dédiée -
+                                        Clavier Rétroéclairé - Wifi 6 - Bluetooth - RJ45 - 3x USB 3.2 -
+                                        1x USB-C 3.2 - HDMI - Port Casque/Micro - Webcam HD - Couleur Noir - Garantie 1 An</b>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div id="1000"  class="box Chicony pc" >
+                            <div class="image" >
+                                <img src="images/pc 2.png" class="main-img" alt="">
+                                <img src="images/pc 2 hover.png" class="hover-img" alt="">
+                            </div>
+                            <div class="content">
+                                <div><button onclick="remove9()"> <i class="fas fa-times"></i></button></div>
+                                <h3> 3EFRIT tower ultime</h3>
+                                <div class="price"> 12300 DT  </div>
+                                <div >
+                                    <b>
+                                    Processeur: Intel Core i3-10100F (3,60 GHz up to 4,30 GHz Turbo max, 6Mo Mémoire cache, Quad-Core) - 
+                                    Système d'exploitation: FreeDos - Mémoire RAM: ADATA Barrette mémoire 8Go DDR4 3200 - 
+                                    Disque Dur: MSI SSD SPATIUM M390 NVMe M.2 250Go R3300-W1200 - 
+                                    Carte mère: ASUS H510M-K - Carte graphique: PNY Gamer GT 1030 Graphics Card - 
+                                    Boîtier INTER-TECH Gaming RGB </b>
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+            <div id="1100" class="box halland pc">
+                <div class="image">
+                    <img src="images/pc 3 hover.png" class="main-img" alt="">
+                    <img src="images/pc3.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <div><button onclick="remove10()"> <i class="fas fa-times"></i></button></div>
+                    <h3> halland i40 flow 1.10 </h3>
+                    <div class="price"> 5890 DT </div>
+                    <div>
+                        <b>
+                            Processeur: Intel Core i3-10100F (3,60 GHz up to 4,30 GHz Turbo max, 6Mo Mémoire cache, Quad-Core) - 
+                            Système d'exploitation: FreeDos - Mémoire RAM: ADATA Barrette mémoire 8Go DDR4 3200 - 
+                            Disque Dur: MSI SSD SPATIUM M390 NVMe M.2 250Go R3300-W1200 - 
+                            Carte mère: ASUS H510M-K - Carte graphique: PNY Gamer GT 1030 Graphics Card - 
+                            Boîtier INTER-TECH Gaming RGB </b>
+                    </div>
+                </div>
+            </div>
+            <div id="1200" class="box STRIKER pc">
+                <div class="image">
+                    <img src="images/pc4.png" class="main-img" alt="">
+                    <img src="images/pc4 hover.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <div><button onclick="remove11()"> <i class="fas fa-times"></i></button></div>
+                    <h3> STRIKER v8 IE01 engine </h3>
+                    <div class="price"> 2489 DT </div>
+                    <div >
+                        <b>
+                            Processeur: Intel Core i3-10100F (3,60 GHz up to 4,30 GHz Turbo max, 6Mo Mémoire cache, Quad-Core) - 
+                            Système d'exploitation: FreeDos - Mémoire RAM: ADATA Barrette mémoire 8Go DDR4 3200 - 
+                            Disque Dur: MSI SSD SPATIUM M390 NVMe M.2 250Go R3300-W1200 - 
+                            Carte mère: ASUS H510M-K - Carte graphique: PNY Gamer GT 1030 Graphics Card - 
+                            Boîtier INTER-TECH Gaming RGB </b>
+                    </div>
+                </div>
+            </div>
+            <div id="1300" class="box ALIENWARE pc">
+                <div class="image">
+                    <img src="images/pc5.png" class="main-img" alt="">
+                    <img src="images/pc5 Hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <div><button onclick="remove12()"> <i class="fas fa-times"></i></button></div>
+                    <h3>ALIENWARE AURORA 13</h3>
+                    <div class="price"> 3130 DT </div>
+                    <div >
+                        <b>
+                            Processeur: Intel Core i3-10100F (3,60 GHz up to 4,30 GHz Turbo max, 6Mo Mémoire cache, Quad-Core) - 
+                            Système d'exploitation: FreeDos - Mémoire RAM: ADATA Barrette mémoire 8Go DDR4 3200 - 
+                            Disque Dur: MSI SSD SPATIUM M390 NVMe M.2 250Go R3300-W1200 - 
+                            Carte mère: ASUS H510M-K - Carte graphique: PNY Gamer GT 1030 Graphics Card - 
+                            Boîtier INTER-TECH Gaming RGB </b>
+                    </div>
+                </div>
+            </div>
+            <div id="1400" class="box GAMER pc">
+                <div class="image">
+                    <img src="images/pc6.png" class="main-img" alt="">
+                    <img src="images/pc6 HOVER.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <div><button onclick="remove13()"> <i class="fas fa-times"></i></button></div>
+                    <h3>GAMER CLONE iE Full</h3>
+                    <div class="price"> 7999 DT  </div>
+                    <div >
+                        <b>
+                            Processeur: Intel Core i3-10100F (3,60 GHz up to 4,30 GHz Turbo max, 6Mo Mémoire cache, Quad-Core) - 
+                            Système d'exploitation: FreeDos - Mémoire RAM: ADATA Barrette mémoire 8Go DDR4 3200 - 
+                            Disque Dur: MSI SSD SPATIUM M390 NVMe M.2 250Go R3300-W1200 - 
+                            Carte mère: ASUS H510M-K - Carte graphique: PNY Gamer GT 1030 Graphics Card - 
+                            Boîtier INTER-TECH Gaming RGB </b>
+                    </div>
+                </div>
+            </div>
+            <div id="1500" class="box lenovo laptop">
+                <div class="image">
+                    <img src="images/pc7.png" class="main-img" alt="">
+                    <img src="images/pc7 HOVER.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <div><button onclick="remove14()"> <i class="fas fa-times"></i></button></div>
+                    <h3>ZEST Heisenberg HOT</h3>
+                    <div class="price"> 4432 DT </div>
+                    <div >
+                        <b>
+                            Processeur: Intel Core i3-10100F (3,60 GHz up to 4,30 GHz Turbo max, 6Mo Mémoire cache, Quad-Core) - 
+                            Système d'exploitation: FreeDos - Mémoire RAM: ADATA Barrette mémoire 8Go DDR4 3200 - 
+                            Disque Dur: MSI SSD SPATIUM M390 NVMe M.2 250Go R3300-W1200 - 
+                            Carte mère: ASUS H510M-K - Carte graphique: PNY Gamer GT 1030 Graphics Card - 
+                            Boîtier INTER-TECH Gaming RGB </b>
+                    </div>
+                </div>
+            </div>
+            <div id="1600" class="box zest pc">
+                <div class="image">
+                    <img src="images/pc8.png" class="main-img" alt="">
+                    <img src="images/pc8 hover.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <div><button onclick="remove15()"> <i class="fas fa-times"></i></button></div>
+                    <h3>GAMING FLAVIO 2040</h3>
+                    <div class="price"> 8432 DT </div>
+                    <div >
+                        <b>
+                            Processeur: Intel Core i3-10100F (3,60 GHz up to 4,30 GHz Turbo max, 6Mo Mémoire cache, Quad-Core) - 
+                            Système d'exploitation: FreeDos - Mémoire RAM: ADATA Barrette mémoire 8Go DDR4 3200 - 
+                            Disque Dur: MSI SSD SPATIUM M390 NVMe M.2 250Go R3300-W1200 - 
+                            Carte mère: ASUS H510M-K - Carte graphique: PNY Gamer GT 1030 Graphics Card - 
+                            Boîtier INTER-TECH Gaming RGB </b>
+                    </div>
+                </div>
+            </div>
+            <div id="1700" class="box tapis acc">
+                <div class="image">
+                    <img src="images/acc1 hover.png" class="main-img" alt="">
+                    <img src="images/acc 1.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <div><button onclick="remove16()"> <i class="fas fa-times"></i></button></div>
+                    <h3> Gamer Xpert G900</h3>
+                    <div class="price"> 70 DT </div>
+                    <div >
+                       <b>Tapis Souris L11 Simple - Matière: caoutchouc naturel et tissu /anti-dérapant - 
+                        Compatible avec les souris de Type optique et laser - 
+                        Couleur: Noir et Vert Livraison Gratuite à partir de 300DT d'Achat</b>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="1800" class="box souris acc" >
+                <div class="image" >
+                    <img src="images/acc2.png" class="main-img" alt="">
+                    <img src="images/acc2 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <div><button onclick="remove17()"> <i class="fas fa-times"></i></button></div>
+                    <h3>Gaming USB Razer Deathadder V2</h3>
+                    <div class="price"> 100 DT  </div>
+                    <div >
+                        <b> Souris L11 Simple - Matière: caoutchouc naturel et tissu /anti-dérapant - 
+                            Compatible avec les souris de Type optique et laser - 
+                            Couleur: Noir et Vert Livraison Gratuite à partir de 300DT d'Achat</b>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="1900" class="box manette acc ">
+                <div class="image">
+                    <img src="images/acc3.png" class="main-img" alt="">
+                    <img src="images/acc3 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <div><button onclick="remove18()"> <i class="fas fa-times"></i></button></div>
+                    <h3> Mecanic Manette PS4 </h3>
+                    <div class="price"> 465 DT </div>
+                    <div>
+                       <b>
+                        Manette De Jeu Simple - Technologie de Connectivité: Filaire - Interface de Connectivité: USB - 15 Boutons - Analogue 
+                        - Matériel: Plastique - Forme ergonomique - Couleur: Noir Livraison Gratuite à partir de 300DT d'Achat
+                       </b>
+                    </div>
+                </div>
+            </div>
+            <div id="2000" class="box aclavier acc">
+                <div class="image">
+                    <img src="images/acc4.png" class="main-img" alt="">
+                    <img src="images/acc4 hover.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <div><button onclick="remove19()"> <i class="fas fa-times"></i></button></div>
+                    <h3> RAZER RAZER BLACKWIDOW V3 </h3>
+                    <div class="price"> 425 DT </div>
+                    <div class>
+                        <b>
+                            Clavier Gamer XTRFY K4 TKL - Technologie de Connectivité: Filaire - Interface avec l'ordinateur: USB - 
+                            Type de touches: Mécanique - Norme clavier: AZERTY/fr -
+                             Clavier rétroéclairé - Rétroéclairage RGB - Touches macro - Touches Multimédia
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div id="2100" class="box casque acc">
+                <div class="image">
+                    <img src="images/acc5.png" class="main-img" alt="">
+                    <img src="images/acc5 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <div><button onclick="remove20()"> <i class="fas fa-times"></i></button></div>
+                    <h3>Casque Gaming Redragon ZEUS</h3>
+                    <div class="price"> 169 DT </div>
+                    <div >  <b>
+                        Micro Casque Gamer MSI DS502 - Connectivité: Filaire -Réponse en Fréquence: Micro: 100Hz-10KHz -
+                        Impédance: Micro: 2.2k ohm -Longueur de câble: 2 métres -
+                         Son surround 7.1 virtuel - Technologie Cmedia Xear - Deux larges transducteurs de 40 mm</b>
+                    </div>
+                </div>
+            </div>
+            <div id="2200" class="box chai acc ">
+                <div class="image">
+                    <img src="images/acc6.png" class="main-img" alt="">
+                    <img src="images/acc6 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <div><button onclick="remove21()"> <i class="fas fa-times"></i></button></div>
+                    <h3>Chair Gaming MSI MAG CH120</h3>
+                    <div class="price"> 1 119 DT  </div>
+                    <div > <b>
+                        Chair Gaming MSI Mag CH120 - Matière: en simili cuir avec accoudoirs 4D réglables excellent confort 
+                        - Mousse moulée à haute densité - Hauteur maximum de l'assise: 55 cm - Hauteur maximum des accoudoirs: 37,5 cm </b>
+                    </div>
+                </div>
+            </div>
+            <div id="2300" class="box wheel acc">
+                <div class="image">
+                    <img src="images/acc7.png" class="main-img" alt="">
+                    <img src="images/acc7 HOVER.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <div><button onclick="remove22()"> <i class="fas fa-times"></i></button></div>
+                    <h3>spirit Race Wheel Pro 2</h3>
+                    <div class="price"> 279 DT </div>
+                    <div >
+                        <b>
+                            Gaming MSI Mag CH120 - Matière: en simili cuir avec accoudoirs 4D réglables excellent confort 
+                            - Mousse moulée à haute densité - Hauteur maximum de l'assise: 55 cm - Hauteur maximum des accoudoirs: 37,5 cm </b>
+                    </div>
+                </div>
+            </div>
+            <div id="2400" class="box clavier acc">
+                <div class="image">
+                    <img src="images/acc8.png" class="main-img" alt="">
+                    <img src="images/ACC8 hover.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <div><button onclick="remove23()"> <i class="fas fa-times"></i></button></div>
+                    <h3>Master MP860 RGB / 360 X 260</h3>
+                    <div class="price"> 322 DT </div>
+                    <div >
+                        <b>
+                        Chair Gaming MSI Mag CH120 - Matière: en simili cuir avec accoudoirs 4D réglables excellent confort 
+                        - Mousse moulée à haute densité - Hauteur maximum de l'assise: 55 cm - Hauteur maximum des accoudoirs: 37,5 cm </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    
+   <!-- scooper product section  -->
+   <!-- Side navigation -->
+<div id="testeur" class="sidenav">
+    
+  </div>
+  
+  <!-- Page content -->
+  <div class="main">
+    ...
+  </div>
+   <!-- laptop div -->
+    <section class="arrivals">
+
+        <h1 class="heading"><span> Gaming Laptops </span> </h1>
+    
+        <div class="box-container">
+    
+            <div id="1" class="box dell laptop">
+                <div class="image">
+                    <img src="images/arrival-1-hover.png" class="main-img" alt="">
+                    <img src="images/arrival-1.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>DELL gaming g15</h3>
+                    <div class="price"> 2300 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <button id="butt1" class="button-21" role="button"> buy</button>
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div  id="2"class="box lenovo laptop" >
+                <div class="image" >
+                    <img src="images/arrival-2.png" class="main-img" alt="">
+                    <img src="images/arrival-2-hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>lenovo legion 3</h3>
+                    <div class="price"> 1300 DT  </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                        <div></div>
+                        
+                        <button id="hahi" class="button-21" role="button"> buy</button>
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div id="3" class="box hp laptop ">
+                <div class="image">
+                    <img src="images/arrival-3.png" class="main-img" alt="">
+                    <img src="images/arrival-3-hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>hp  gaming </h3>
+                    <div class="price"> 1899 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <button id="hoy" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="4" class="box asus laptp">
+                <div class="image">
+                    <img src="images/hover  4.png" class="main-img" alt="">
+                    <img src="images/4.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <h3>Asus A15 TUF507</h3>
+                    <div class="price"> 2489 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <button id="hemm" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="5" class="box asus laptop">
+                <div class="image">
+                    <img src="images/arrival 5.png" class="main-img" alt="">
+                    <img src="images/5 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>ASUS TUF FX516s</h3>
+                    <div class="price"> 2130 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <button id="hell" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="6" class="box hp laptop ">
+                <div class="image">
+                    <img src="images/arrival 6.png" class="main-img" alt="">
+                    <img src="images/arrival6 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>HP lap VICTUS  15</h3>
+                    <div class="price"> 1999 DT  </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <button id="hobi" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+            <div id="7" class="box lenovo laptop">
+                <div class="image">
+                    <img src="images/arrival 7 hover.png" class="main-img" alt="">
+                    <img src="images/arrival 7.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <h3>LENOVO THINKPAD E14</h3>
+                    <div class="price"> 1432 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                         <div></div>
+                        <button id="harr" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+            <div id="8" class="box lenovo_laptop">
+                <div class="image">
+                    <img src="images/unknown.png" class="main-img" alt="">
+                    <img src="images/unknown (1).png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <h3>Dell  M15</h3>
+                    <div class="price"> 1432 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                         
+                         <div></div>
+                        <button id="han" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+              
+               
+        </div>
+             
+    </section>
+    <!-- pc div  -->
+    <section class="arrivals">
+
+        <h1 class="heading"><span> Gaming Tower </span> </h1>
+        <div class="box-container">
+            <div  id="9" class="box 3EFRIT pc">
+                <div class="image">
+                    <img src="images/pc 1.png" class="main-img" alt="">
+                    <img src="images/pc 1  hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>alnort AK47 18K</h3>
+                    <div class="price"> 9120 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <div></div>
+                        <button id="hard" class="button-21" role="button"> buy</button>
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div id="10"  class="box Chicony pc" >
+                <div class="image" >
+                    <img src="images/pc 2.png" class="main-img" alt="">
+                    <img src="images/pc 2 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3> 3EFRIT tower ultime</h3>
+                    <div class="price"> 12300 DT  </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                        <div></div>
+                        
+                        <button id="hareey" class="button-21" role="button"> buy</button>
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div id="11" class="box halland pc">
+                <div class="image">
+                    <img src="images/pc 3 hover.png" class="main-img" alt="">
+                    <img src="images/pc3.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3> halland i40 flow 1.10 </h3>
+                    <div class="price"> 5890 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                       
+                        <i class="fas fa-star-half-alt"></i>
+                        <DIV></DIV>
+                        <button id="rony" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="12" class="box STRIKER pc">
+                <div class="image">
+                    <img src="images/pc4.png" class="main-img" alt="">
+                    <img src="images/pc4 hover.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <h3> STRIKER v8 IE01 engine </h3>
+                    <div class="price"> 2489 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <div></div>
+                        <button id="alno" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="13" class="box ALIENWARE pc">
+                <div class="image">
+                    <img src="images/pc5.png" class="main-img" alt="">
+                    <img src="images/pc5 Hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>ALIENWARE AURORA 13</h3>
+                    <div class="price"> 3130 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <div></div>
+                        <button id="chando" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="14" class="box GAMER pc">
+                <div class="image">
+                    <img src="images/pc6.png" class="main-img" alt="">
+                    <img src="images/pc6 HOVER.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>GAMER CLONE iE Full</h3>
+                    <div class="price"> 7999 DT  </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <div></div>
+                        <button id="butt14" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+            <div id="15" class="box lenovo laptop">
+                <div class="image">
+                    <img src="images/pc7.png" class="main-img" alt="">
+                    <img src="images/pc7 HOVER.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <h3>ZEST Heisenberg HOT</h3>
+                    <div class="price"> 4432 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                         <div></div>
+                        <button id="butt15" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+            <div id="16" class="box zest pc">
+                <div class="image">
+                    <img src="images/pc8.png" class="main-img" alt="">
+                    <img src="images/pc8 hover.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <h3>GAMING FLAVIO 2040</h3>
+                    <div class="price"> 8432 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                         <div></div>
+                        <button id="butt16" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+               
+               
+        </div>
+    
+    </section>
+     <!-- accesoire room -->
+    <section class="arrivals">
+
+        <h1 class="heading"><span> Accessoires Gaming </span> </h1>
+    
+        <div class="box-container">
+  
+            <div id="17" class="box tapis acc">
+                <div class="image">
+                    <img src="images/acc1 hover.png" class="main-img" alt="">
+                    <img src="images/acc 1.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3> Gamer Xpert G900</h3>
+                    <div class="price"> 70 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        
+                        <i class="fas fa-star-half-alt"></i>
+                        
+                        <div></div>
+                        <button id="butt17" class="button-21" role="button"> buy</button>
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div id="18" class="box souris acc" >
+                <div class="image" >
+                    <img src="images/acc2.png" class="main-img" alt="">
+                    <img src="images/acc2 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>Gaming USB Razer Deathadder V2</h3>
+                    <div class="price"> 100 DT  </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                        <div></div>
+                        
+                        <button id="butt18" class="button-21" role="button"> buy</button>
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div id="19" class="box manette acc ">
+                <div class="image">
+                    <img src="images/acc3.png" class="main-img" alt="">
+                    <img src="images/acc3 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3> Mecanic Manette PS4 </h3>
+                    <div class="price"> 465 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                       
+                        <i class="fas fa-star-half-alt"></i>
+                        <DIV></DIV>
+                        <button id="butt19" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="20" class="box aclavier acc">
+                <div class="image">
+                    <img src="images/acc4.png" class="main-img" alt="">
+                    <img src="images/acc4 hover.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <h3> RAZER RAZER BLACKWIDOW V3 </h3>
+                    <div class="price"> 425 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <div></div>
+                        <button id="butt20" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="21" class="box casque acc">
+                <div class="image">
+                    <img src="images/acc5.png" class="main-img" alt="">
+                    <img src="images/acc5 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>Casque Gaming Redragon ZEUS</h3>
+                    <div class="price"> 169 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <div></div>
+                        <button id="butt21" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="22" class="box chai acc ">
+                <div class="image">
+                    <img src="images/acc6.png" class="main-img" alt="">
+                    <img src="images/acc6 hover.png" class="hover-img" alt="">
+                </div>
+                <div class="content">
+                    <h3>Chair Gaming MSI MAG CH120</h3>
+                    <div class="price"> 1 119 DT  </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <div></div>
+                        <button id="butt22" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+            <div id="23" class="box wheel acc">
+                <div class="image">
+                    <img src="images/acc7.png" class="main-img" alt="">
+                    <img src="images/acc7 HOVER.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <h3>spirit Race Wheel Pro 2</h3>
+                    <div class="price"> 279 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                         <div></div>
+                        <button id="butt23" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+            <div id="24" class="box clavier acc">
+                <div class="image">
+                    <img src="images/acc8.png" class="main-img" alt="">
+                    <img src="images/ACC8 hover.png" class="hover-img" alt="">
+                    
+                </div>
+                <div class="content">
+                    <h3>Master MP860 RGB / 360 X 260</h3>
+                    <div class="price"> 322 DT </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                         <div></div>
+                        <button id="butt24" class="button-21" role="button"> buy</button>
+                    </div>
+                </div>
+            </div>
+               
+               
+        </div>
+    
+    </section>
+    <!-- footer section starts  -->
+
+<section class="quick-links">
+
+    <a href="home.html" class="logo"><i class="fa fa-laptop" aria-hidden="true"></i> scooper </a>
+
+    <div class="links">
+        <a href="home.html"> home </a>
+        <a href="https://media.tenor.com/jr9t3yabkH8AAAAC/ah-shit-here-we-go-again.gif"> about </a>
+        <a href="c:\Users\Wissem\OneDrive\Bureau\scooper\service.png"> contact </a>
+        <a href="cart.html"> cart </a>
+    </div>
+
+    <div class="share">
+        <a href="https://media.tenor.com/jr9t3yabkH8AAAAC/ah-shit-here-we-go-again.gif" class="fab fa-facebook-f"></a>
+        <a href="https://media.tenor.com/jr9t3yabkH8AAAAC/ah-shit-here-we-go-again.gif" class="fab fa-twitter"></a>
+        <a href="https://media.tenor.com/jr9t3yabkH8AAAAC/ah-shit-here-we-go-again.gif" class="fab fa-instagram"></a>
+        <a href="https://media.tenor.com/jr9t3yabkH8AAAAC/ah-shit-here-we-go-again.gif" class="fab fa-linkedin"></a>
+    </div>
+
+</section>
+
+<section class="credit">
+
+    <p> created by <span>A & W</span> | all rights reserved !   </p>
+     
+    <img src="images/card_img.png" alt="">
+
+</section>
+
+<!-- footer section ends -->
+
+ <script src="main.js">
+    
+
+
+ </script>
+</body>
+</html>
